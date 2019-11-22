@@ -1,14 +1,8 @@
-import sys, os, pygame, random, math, pickle
+import sys, pygame, random
 from threading import Thread
 
-global direction
-
-max_frame_ticker = 30
+max_frame_ticker = 100
 frame_ticker = max_frame_ticker
-
-#random.seed(6)
-cwd = os.getcwd()
-d = os.listdir()
 
 pygame.font.init()
 
